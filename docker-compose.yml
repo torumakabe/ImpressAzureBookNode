@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  practicalbook4azurenode:
+    image: practicalbook4azurenode
+    build: .
+    ports:
+      - 8080:8080
